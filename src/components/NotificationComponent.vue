@@ -1,3 +1,9 @@
+<script setup>
+defineProps({
+  isShowNotif: Boolean,
+});
+</script>
+
 <template>
   <transition name="fade">
     <div
@@ -8,12 +14,6 @@
     </div>
   </transition>
 </template>
-
-<script setup>
-defineProps({
-  isShowNotif: Boolean,
-});
-</script>
 
 <style scoped>
 .fade-enter-active,
