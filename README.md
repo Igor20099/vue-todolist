@@ -1,7 +1,10 @@
-# Vue 3 + Vite
+# Vue Todolist
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Список задач в который с помощью формы добавления можно добавлять задачи. Так же задачи можно добавлять в выполненные и удалять.Реализован поиск по задачам.Так же при каждом из действий(добавления, добавление в выполненные и удаление) всплывает соответствующее уведомление
 
-## Recommended IDE Setup
+## Технологии
 
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
+- Vue
+- JavaScript
+- TailwindCSS
+- uuid(для генерации случайного id для задачи)
